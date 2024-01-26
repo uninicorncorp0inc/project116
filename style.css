@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+    text-align: center;
+}
+.title{
+    background-color: transparent;
+    font-size:150px; 
+    color: rgb(179, 0, 255);
+font-family: 'Yusei Magic', sans-serif;
+text-shadow:1px #fb00ff;
+}
+.btn{
+    
+}
+canvas{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow: 3px 3px 80px #fb00ff;}
+    to{box-shadow: 3px 3px 80px rgb(230, 31, 244);}
+}
